@@ -12,7 +12,7 @@
 1. $ sudo apt install sqlite3
 2. $ sudo pip install -r requirements.txt
 3. $ sudo export FLASK_APP=app.py
-4. $ m flask run
+4. $ flask run
 ```
 
 Приложение будет находиться по адресу из консоли.
