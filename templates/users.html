@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <h1>{{ header }}</h1>
+    <table>
+    <tr>
+        {% for column_name in columns %}
+            <td>{{ column_name }}</td>
+        {% endfor %}
+    </tr>
+    {% for user_info in users%}
+        <tr>
+        {% for data in user_info %}
+            <td>{{ data }}</td>
+        {% endfor %}
+        </tr>
+    {% endfor %}
+</table>
+</body>
+</html>
